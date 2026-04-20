@@ -1,0 +1,41 @@
+[
+  {
+    "id": "7b932434-5dbd-411e-8c3c-6fe6f1fdebea",
+    "data": [
+      {
+        "text": "I have image data and want to do classification.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54371334-02ba-4bf3-a6ec-4cdc602cc13d",
+    "data": [
+      {
+        "text": "What model should I use for text?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "516fb071-4fb0-40e3-9e30-ceb398344072",
+    "data": [
+      {
+        "text": "I need help picking a model.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

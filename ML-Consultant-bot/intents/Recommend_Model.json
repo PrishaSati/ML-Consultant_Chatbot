@@ -1,0 +1,72 @@
+{
+  "id": "79c9f4c5-cd26-4976-b552-68cfcfe1f976",
+  "name": "Recommend_Model",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b2a3f0eb-57ab-45da-a893-2043352a24b7",
+          "name": "data-type",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Is your data Images, Text, or Tabular?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "485231db-f7b5-4e08-b8e9-979c4cf14f6f",
+          "name": "goal",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your goal? (e.g., Classification, Regression, or Clustering?)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Since you are working with $data-type for $goal, I recommend starting with a ResNet architecture (for images) or BERT-based transformers (for text). Would you like to know about the evaluation metrics for this?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
